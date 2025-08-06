@@ -1,0 +1,85 @@
+ *{
+    padding: 0%;
+    margin: 0%;
+ }
+ body{
+    background-color: white;
+ }
+ .headbox{
+    background-color: palevioletred;
+    height: 190px;
+    width: 1280px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+}
+ .headbox p{
+    padding: 20px;
+    font-size: large;
+
+ }
+ .container{
+    background-color: white;
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+ }
+ .foot{
+    background-color: rgb(252, 76, 135);
+    height: 80px;
+    width: 1280px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 70px;
+    font-size: larger;
+ }
+ 
+
+.card{
+ display: flex;
+ flex-direction: column;
+ border: 6px solid palevioletred;
+ border-radius: 10px;
+ align-items: center;
+  height: 400px;
+  width: 300px;
+ gap: 10px;
+ position: relative;
+ left: 120px;
+ top: 40px;
+ bottom: 20px;
+ cursor: pointer;
+}
+
+.card img{
+   width: 200px;
+   height: 270px;
+   position: relative;
+   top: 15px;
+   border: 2px solid black;
+   border-radius: 15px;
+}
+.card h1{
+   position: relative;
+   top: 8px;
+}
+.input{
+   height: 35px;
+   width: 300px;
+   border: 2px solid black;
+   border-radius: 9px;
+   cursor: pointer;
+   font-size: medium;
+}
+.button{
+   height: 35px;
+   width: 100px;
+   border: 2px solid black;
+   border-radius: 9px;
+   cursor: pointer;
+   font-size: medium;
+}
